@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho - Programa Educativo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            background-color: #ddd;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Programa Agrinho</h1>
+        <p>Transformando conhecimento em cidadania</p>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre o Agrinho</a>
+        <a href="#atividades">Atividades</a>
+        <a href="#participar">Como Participar</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre o Agrinho</h2>
+            <p>O Agrinho é um programa educativo que promove a educação no campo, incentivando práticas sustentáveis e cidadania.</p>
+        </section>
+        <section id="atividades">
+            <h2>Atividades</h2>
+            <p>As atividades do Agrinho incluem aulas práticas, workshops, e projetos comunitários focados na educação ambiental e no desenvolvimento rural.</p>
+        </section>
+        <section id="participar">
+            <h2>Como Participar</h2>
+            <p>Para participar do Agrinho, entre em contato com a Secretaria de Educação do seu município ou visite nosso site oficial para mais informações.</p>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco pelo telefone (XX) XXXX-XXXX ou pelo email contato@agrinho.org.br.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Agrinho - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
